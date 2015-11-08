@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.oscar.castlevania" >
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/fondocas"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Juego"
+            android:label="@string/title_activity_juego"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.oscar.castlevania.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Estadisticas"
+            android:label="@string/title_activity_estadisticas"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.oscar.castlevania.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ActivityNiveles"
+            android:label="@string/title_activity_activity_niveles"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.oscar.castlevania.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Juego2"
+            android:label="@string/title_activity_juego2"
+            android:parentActivityName=".ActivityNiveles" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.oscar.castlevania.ActivityNiveles" />
+        </activity>
+        <activity
+            android:name=".Juego3"
+            android:label="@string/title_activity_juego3" >
+        </activity>
+        <activity
+            android:name=".VideoActivity"
+            android:label="@string/title_activity_video"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.oscar.castlevania.MainActivity" />
+        </activity>
+        <activity
+            android:name=".PresentacionActivity"
+            android:label="@string/title_activity_presentacion" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UsuarioActivity"
+            android:label="@string/title_activity_usuario"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.oscar.castlevania.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
