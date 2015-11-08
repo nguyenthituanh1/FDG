@@ -16,6 +16,6 @@ GNU General Public Licence v3.0
 
 #Mas información
 
-http://oscarsalas03.wix.com/travel-blog-es
+http://oscarsalas03.wix.com/fgdevelopers
 
 
