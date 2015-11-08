@@ -1,7 +1,7 @@
 # FGD
 
 # Descripción del juego:
-El personaje irá saltando y moviéndose hacia los lados para esquivar varios obstáculos lanzados por un enemigo en caso de chocar con el obstáculo, va sonar un sonido de choque, se irá aumentado la velocidad de dichos obstáculos. El androide contará con una vida en caso de que choque tres veces con un obstáculo se presenta una animación de game over y volverá al  iniciar el juego.
+El personaje irá saltando y moviéndose hacia los lados para esquivar varios obstáculos lanzados por un enemigo en caso de chocar con el obstáculo, va sonar un sonido de choque, se irá aumentado la velocidad de dichos obstáculos. El androide contará con una vida en el caso de que choque tres veces con un obstáculo se presenta una animación de game over y volverá al  iniciar el juego.
 
 #Niveles del juego:
 El primer nivel los obstáculos salen de derecha a izquierda y a una velocidad constante.
